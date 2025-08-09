@@ -1,0 +1,8 @@
+prefix=/home/rosnoetic/nav02_ws/install
+
+Name: topograph
+Description: Description of topograph
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib cv_bridge geometry_msgs image_transport move_base nav_msgs roscpp rospy sensor_msgs std_msgs tf message_runtime

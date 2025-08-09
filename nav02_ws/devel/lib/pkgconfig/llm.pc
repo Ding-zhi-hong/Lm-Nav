@@ -1,0 +1,8 @@
+prefix=/home/rosnoetic/nav02_ws/devel
+
+Name: llm
+Description: Description of llm
+Version: 0.0.0
+Cflags: -I/home/rosnoetic/nav02_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime rospy std_msgs

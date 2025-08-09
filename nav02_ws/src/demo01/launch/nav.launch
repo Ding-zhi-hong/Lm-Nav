@@ -1,0 +1,13 @@
+<launch>
+
+<!--集成导航-->
+
+<include file="$(find demo01)/launch/slam.launch"/>
+<include file="$(find demo01)/launch/amcl.launch"/>
+
+<include file="$(find demo01)/launch/move_base.launch"/>
+
+
+
+
+</launch>

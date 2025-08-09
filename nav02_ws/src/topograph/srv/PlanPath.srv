@@ -1,0 +1,6 @@
+geometry_msgs/Pose start_pose  
+string[] landmarks   
+
+---
+
+nav_msgs/Path path           
